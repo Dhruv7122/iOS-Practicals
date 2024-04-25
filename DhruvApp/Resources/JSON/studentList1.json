@@ -1,0 +1,26 @@
+{
+    "resultflag": 1,
+    "message": "Success message",
+    "EmployeeList": [
+        {
+            "name": "Atharv Pandit",
+            "dob": "01-01-2000",
+            "department": "ios"
+        },
+        {
+            "name": "Kashyap Patel",
+            "dob": "01-02-2000",
+            "department": "ios"
+        },
+        {
+            "name": "Panshul Mistry",
+            "dob": "01-03-2000",
+            "department": "ios"
+        },
+        {
+            "name": "Priyal Savaliya",
+            "dob": "01-04-2000",
+            "department": "ios"
+        }
+    ]
+}

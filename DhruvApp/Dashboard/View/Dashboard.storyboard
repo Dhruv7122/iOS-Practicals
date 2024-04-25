@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DashboardVC-->
+        <scene sceneID="P0f-Oo-s4X">
+            <objects>
+                <viewController storyboardIdentifier="DashboardVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Vz8-BN-TYb" customClass="DashboardVC" customModule="DhruvApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TQT-Px-z75">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EvM-DR-NyK">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aE-7p-3ou">
+                                        <rect key="frame" x="16" y="10" width="29.5" height="29.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="4aE-7p-3ou" secondAttribute="height" id="z2d-Gf-NdL"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.17668616770000001" green="0.11614304039999999" blue="0.52012467380000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="sidebar.left" catalog="system" symbolScale="large"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnSideMenuClickAction:" destination="Vz8-BN-TYb" eventType="touchUpInside" id="m2Z-0T-agR"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dashboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVb-Ea-nlp">
+                                        <rect key="frame" x="55.5" y="10" width="342.5" height="29.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="EVb-Ea-nlp" firstAttribute="top" secondItem="4aE-7p-3ou" secondAttribute="top" id="1BR-9G-1jP"/>
+                                    <constraint firstItem="4aE-7p-3ou" firstAttribute="width" secondItem="EvM-DR-NyK" secondAttribute="width" multiplier="0.071256" id="UIX-tq-aA2"/>
+                                    <constraint firstItem="4aE-7p-3ou" firstAttribute="top" secondItem="EvM-DR-NyK" secondAttribute="top" constant="10" id="Vr8-Gx-Zz2"/>
+                                    <constraint firstItem="4aE-7p-3ou" firstAttribute="leading" secondItem="EvM-DR-NyK" secondAttribute="leading" constant="16" id="WiA-OT-9oU"/>
+                                    <constraint firstItem="EVb-Ea-nlp" firstAttribute="leading" secondItem="4aE-7p-3ou" secondAttribute="trailing" constant="10" id="bQq-l8-2Gp"/>
+                                    <constraint firstAttribute="trailing" secondItem="EVb-Ea-nlp" secondAttribute="trailing" constant="16" id="gUa-pZ-3AN"/>
+                                    <constraint firstItem="EVb-Ea-nlp" firstAttribute="bottom" secondItem="4aE-7p-3ou" secondAttribute="bottom" id="ov2-XS-lmE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A2o-y6-sFX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A2o-y6-sFX" firstAttribute="trailing" secondItem="EvM-DR-NyK" secondAttribute="trailing" id="QjP-j5-qqw"/>
+                            <constraint firstItem="EvM-DR-NyK" firstAttribute="leading" secondItem="A2o-y6-sFX" secondAttribute="leading" id="TkL-EY-EUg"/>
+                            <constraint firstItem="A2o-y6-sFX" firstAttribute="bottom" secondItem="EvM-DR-NyK" secondAttribute="bottom" id="g7j-cF-dAL"/>
+                            <constraint firstItem="EvM-DR-NyK" firstAttribute="top" secondItem="A2o-y6-sFX" secondAttribute="top" id="o62-h7-YrZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="HE1-gE-9GN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJJ-Wb-r2b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1315.9420289855072" y="116.51785714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="smf-tM-5Sk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="FI3-YH-IIu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b5E-Be-baW">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Vz8-BN-TYb" kind="relationship" relationship="rootViewController" id="XxZ-tt-Idy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="unQ-Ul-Xjw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="405.79710144927537" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sidebar.left" catalog="system" width="128" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

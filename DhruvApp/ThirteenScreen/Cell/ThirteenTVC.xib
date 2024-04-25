@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="104" id="KGk-i7-Jjw" customClass="ThirteenTVC" customModule="DhruvApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5aG-p6-DRx">
+                        <rect key="frame" x="16" y="5" width="319" height="94"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2bA-eL-A4H">
+                                <rect key="frame" x="0.0" y="0.0" width="319" height="94"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7JO-4o-3On">
+                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="94"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3C-x9-i6J">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="94"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JnD-JJ-ybA">
+                                                <rect key="frame" x="80" y="0.0" width="79.5" height="94"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="B7S-xV-kyJ">
+                                        <rect key="frame" x="159.5" y="0.0" width="159.5" height="94"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dth-AB-Fch">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="94"/>
+                                                <state key="normal" title="Add"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0n4-hu-xAC">
+                                                <rect key="frame" x="80" y="0.0" width="79.5" height="94"/>
+                                                <state key="normal" title="Delete"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2bA-eL-A4H" secondAttribute="bottom" id="C14-KQ-ONf"/>
+                            <constraint firstAttribute="trailing" secondItem="2bA-eL-A4H" secondAttribute="trailing" id="LHc-fl-IQz"/>
+                            <constraint firstItem="2bA-eL-A4H" firstAttribute="top" secondItem="5aG-p6-DRx" secondAttribute="top" id="e0t-uV-h49"/>
+                            <constraint firstItem="2bA-eL-A4H" firstAttribute="leading" secondItem="5aG-p6-DRx" secondAttribute="leading" id="mka-6p-k0z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="5aG-p6-DRx" secondAttribute="bottom" constant="5" id="2Fa-m0-Hwf"/>
+                    <constraint firstItem="5aG-p6-DRx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="BHf-fY-F3e"/>
+                    <constraint firstAttribute="trailing" secondItem="5aG-p6-DRx" secondAttribute="trailing" constant="16" id="ToS-bi-uf9"/>
+                    <constraint firstItem="5aG-p6-DRx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="nYJ-aT-eQy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAdd" destination="dth-AB-Fch" id="32s-o8-DmZ"/>
+                <outlet property="btnDelete" destination="0n4-hu-xAC" id="kTu-JU-NrP"/>
+                <outlet property="lblText" destination="b3C-x9-i6J" id="XAt-na-Bia"/>
+                <outlet property="txtField" destination="JnD-JJ-ybA" id="oZx-tB-w1K"/>
+            </connections>
+            <point key="canvasLocation" x="-136.95652173913044" y="157.36607142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vhO-P0-kNf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second ScreenVC-->
+        <scene sceneID="dmq-F2-Ag8">
+            <objects>
+                <viewController storyboardIdentifier="SecondScreenVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7wW-5x-gSK" customClass="SecondScreenVC" customModule="DhruvApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7C7-fv-hbS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTQ-Ov-ucO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rya-se-Gm8">
+                                        <rect key="frame" x="16" y="62" width="382" height="220"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih0-2p-Z5g">
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="60"/>
+                                                <color key="backgroundColor" red="1" green="0.58431372549019611" blue="0.0" alpha="0.77893926056338025" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="kqf-vq-AFo"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="First Screen">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnScreenClickAction:" destination="7wW-5x-gSK" eventType="touchUpInside" id="KnG-ce-imz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbF-SK-ZlW">
+                                                <rect key="frame" x="0.0" y="80" width="382" height="60"/>
+                                                <color key="backgroundColor" red="1" green="0.58431372549019611" blue="0.0" alpha="0.77893926056338025" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="Second Screen">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnScreenClickAction:" destination="7wW-5x-gSK" eventType="touchUpInside" id="Y29-ek-bDp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Onh-1S-SIe">
+                                                <rect key="frame" x="0.0" y="160" width="382" height="60"/>
+                                                <color key="backgroundColor" red="1" green="0.58431372549019611" blue="0.0" alpha="0.77893926056338025" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="Third Screen">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnScreenClickAction:" destination="7wW-5x-gSK" eventType="touchUpInside" id="k4Y-k1-ivZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LX-IV-3lt">
+                                        <rect key="frame" x="16" y="16" width="34" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnBackClickAction:" destination="7wW-5x-gSK" eventType="touchUpInside" id="IoE-wr-abh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="1LX-IV-3lt" firstAttribute="leading" secondItem="QTQ-Ov-ucO" secondAttribute="leading" constant="16" id="CIC-v8-xyA"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1LX-IV-3lt" secondAttribute="trailing" constant="16" id="Lv3-Ry-sf9"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rya-se-Gm8" secondAttribute="trailing" constant="16" id="S1m-hK-l44"/>
+                                    <constraint firstItem="Rya-se-Gm8" firstAttribute="top" secondItem="1LX-IV-3lt" secondAttribute="bottom" constant="16" id="VWE-oI-0VF"/>
+                                    <constraint firstItem="Rya-se-Gm8" firstAttribute="leading" secondItem="QTQ-Ov-ucO" secondAttribute="leading" constant="16" id="erD-a6-Lxt"/>
+                                    <constraint firstItem="1LX-IV-3lt" firstAttribute="top" secondItem="QTQ-Ov-ucO" secondAttribute="top" constant="16" id="jNc-ey-kdf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9jq-4b-OuO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QTQ-Ov-ucO" firstAttribute="top" secondItem="9jq-4b-OuO" secondAttribute="top" id="9t0-tI-1Js"/>
+                            <constraint firstItem="9jq-4b-OuO" firstAttribute="bottom" secondItem="QTQ-Ov-ucO" secondAttribute="bottom" id="Tq9-UV-y8G"/>
+                            <constraint firstItem="QTQ-Ov-ucO" firstAttribute="leading" secondItem="9jq-4b-OuO" secondAttribute="leading" id="paP-jH-kcF"/>
+                            <constraint firstItem="9jq-4b-OuO" firstAttribute="trailing" secondItem="QTQ-Ov-ucO" secondAttribute="trailing" id="puj-Ti-8bg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GjD-fM-EFx"/>
+                    <connections>
+                        <outlet property="btnScreen1" destination="Ih0-2p-Z5g" id="aRp-cd-nFm"/>
+                        <outlet property="btnScreen2" destination="lbF-SK-ZlW" id="piR-e4-Zo7"/>
+                        <outlet property="btnScreen3" destination="Onh-1S-SIe" id="eyJ-Il-Xdg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p3R-iJ-TMM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097.1014492753625" y="157.36607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ECv-A7-oHM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="vhO-P0-kNf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BOF-JW-u0h">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7wW-5x-gSK" kind="relationship" relationship="rootViewController" id="DEU-ds-top"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8x3-0Q-5QX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="186.95652173913044" y="157.36607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

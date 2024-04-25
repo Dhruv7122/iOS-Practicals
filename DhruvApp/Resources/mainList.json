@@ -1,0 +1,73 @@
+{
+    "resultflag": 1,
+    "message": "Success message",
+    "MainList": [
+            {
+                "name": "Practical 1",
+                "storyboard":"FirstScreen",
+                "vc": "FirstScreenVC"
+            },
+            {
+                "name": "Practical 2",
+                "storyboard":"SecondScreen",
+                "vc": "SecondScreenVC"
+            },
+            {
+                "name": "Practical 3",
+                "storyboard":"ThirdScreen",
+                "vc": "ThirdScreenVC"
+            },
+            {
+                "name": "Practical 4",
+                "storyboard":"ForthScreen",
+                "vc": "ForthScreenVC"
+            },
+            {
+                "name": "Practical 5",
+                "storyboard":"FifthScreen",
+                "vc": "FifthScreenVC"
+            },
+            {
+                "name": "Practical 6",
+                "storyboard":"SixScreen",
+                "vc": "SixScreenVC"
+            },
+            {
+                "name": "Practical 7",
+                "storyboard":"SevenScreen",
+                "vc": "SevenScreenVC"
+            },
+            {
+                "name": "Practical 8",
+                "storyboard":"EightScreen",
+                "vc": "EightScreenVC"
+            },
+            {
+                "name": "Practical 9",
+                "storyboard":"NineScreen",
+                "vc": "NineScreenVC"
+            },
+            {
+                "name": "Practical 10",
+                "storyboard":"TenScreen",
+                "vc": "TenScreenVC"
+            },
+            {
+                "name": "Practical 11",
+                "storyboard":"ElevenScreen",
+                "vc": "ElevenScreenVC"
+            },
+            {
+                "name": "Practical 12",
+                "storyboard":"TwelveScreen",
+                "vc": "TwelveScreenVC"
+            },
+            {
+                "name": "Practical 13",
+                "storyboard":"ThirteenScreen",
+                "vc": "ThirteenScreenVC"
+            }
+            
+        ]
+}
+

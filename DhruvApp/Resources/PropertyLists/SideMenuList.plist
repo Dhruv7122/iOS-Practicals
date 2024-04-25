@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Practical 1</string>
+		<key>storyboard</key>
+		<string>FirstScreen</string>
+		<key>vc</key>
+		<string>FirstScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 2</string>
+		<key>storyboard</key>
+		<string>SecondScreen</string>
+		<key>vc</key>
+		<string>SecondScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 3</string>
+		<key>storyboard</key>
+		<string>ThirdScreen</string>
+		<key>vc</key>
+		<string>ThirdScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 4</string>
+		<key>storyboard</key>
+		<string>ForthScreen</string>
+		<key>vc</key>
+		<string>ForthScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 5</string>
+		<key>storyboard</key>
+		<string>FifthScreen</string>
+		<key>vc</key>
+		<string>FifthScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 6</string>
+		<key>storyboard</key>
+		<string>SixScreen</string>
+		<key>vc</key>
+		<string>SixScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 7</string>
+		<key>storyboard</key>
+		<string>SevenScreen</string>
+		<key>vc</key>
+		<string>SevenScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 8</string>
+		<key>storyboard</key>
+		<string>EightScreen</string>
+		<key>vc</key>
+		<string>EightScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 9</string>
+		<key>storyboard</key>
+		<string>NineScreen</string>
+		<key>vc</key>
+		<string>NineScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 10</string>
+		<key>storyboard</key>
+		<string>TenScreen</string>
+		<key>vc</key>
+		<string>TenScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 11</string>
+		<key>storyboard</key>
+		<string>ElevenScreen</string>
+		<key>vc</key>
+		<string>ElevenScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 12</string>
+		<key>storyboard</key>
+		<string>TwelveScreen</string>
+		<key>vc</key>
+		<string>TwelveScreenVC</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 13</string>
+		<key>storyboard</key>
+		<string>ThirteenScreen</string>
+		<key>vc</key>
+		<string>ThirteenScreenVC</string>
+	</dict>
+</array>
+</plist>

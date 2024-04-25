@@ -1,0 +1,21 @@
+{
+    "resultflag": 1,
+    "message": "Success message",
+    "UserList": [
+            {
+                "name": "Atharv Pandit",
+                "img":"img_1"
+            },
+            {
+                "name": "Kashyap Patel",
+                "img":"img_2"
+            },
+            {
+                "name": "Panshul Mistry",
+                "img":"img_1"
+            },
+            {
+                "name": "Priyal Savaliya",
+                "img":"img_2"            }
+        ]
+}

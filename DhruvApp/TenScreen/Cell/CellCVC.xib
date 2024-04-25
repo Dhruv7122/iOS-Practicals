@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellCVC" id="gTV-IL-0wX" customClass="CellCVC" customModule="DhruvApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="207" height="259"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="207" height="259"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UZ7-Uj-zZf">
+                        <rect key="frame" x="0.0" y="0.0" width="207" height="259"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jvy-2X-oGy">
+                                <rect key="frame" x="0.0" y="0.0" width="207" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jvy-2X-oGy" secondAttribute="height" multiplier="1:1" id="s05-Gm-BSd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Am-CA-8dJ">
+                                <rect key="frame" x="0.0" y="217" width="207" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jvy-2X-oGy" firstAttribute="width" secondItem="UZ7-Uj-zZf" secondAttribute="width" id="K5k-kB-VSK"/>
+                            <constraint firstItem="jvy-2X-oGy" firstAttribute="top" secondItem="UZ7-Uj-zZf" secondAttribute="top" id="P7k-Jl-ysW"/>
+                            <constraint firstItem="jvy-2X-oGy" firstAttribute="leading" secondItem="UZ7-Uj-zZf" secondAttribute="leading" id="Q8S-Wy-Bua"/>
+                            <constraint firstAttribute="trailing" secondItem="jvy-2X-oGy" secondAttribute="trailing" id="S5G-K6-lrl"/>
+                            <constraint firstAttribute="trailing" secondItem="2Am-CA-8dJ" secondAttribute="trailing" id="TBf-5G-odu"/>
+                            <constraint firstItem="2Am-CA-8dJ" firstAttribute="leading" secondItem="UZ7-Uj-zZf" secondAttribute="leading" id="ecv-pl-laN"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2Am-CA-8dJ" secondAttribute="bottom" constant="10" id="wBf-6A-BMh"/>
+                            <constraint firstItem="2Am-CA-8dJ" firstAttribute="top" secondItem="jvy-2X-oGy" secondAttribute="bottom" constant="10" id="xPG-7F-Ted"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="UZ7-Uj-zZf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aWz-iQ-t39"/>
+                <constraint firstItem="UZ7-Uj-zZf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="e4a-2P-CJY"/>
+                <constraint firstItem="UZ7-Uj-zZf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fwK-tL-tfB"/>
+                <constraint firstAttribute="bottom" secondItem="UZ7-Uj-zZf" secondAttribute="bottom" id="g1o-Tj-qsX"/>
+                <constraint firstAttribute="bottom" secondItem="UZ7-Uj-zZf" secondAttribute="bottom" id="qqe-LO-SEY"/>
+                <constraint firstAttribute="trailing" secondItem="UZ7-Uj-zZf" secondAttribute="trailing" id="woD-73-kwD"/>
+                <constraint firstAttribute="trailing" secondItem="UZ7-Uj-zZf" secondAttribute="trailing" id="x72-RU-zue"/>
+                <constraint firstItem="UZ7-Uj-zZf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zDu-gj-mnp"/>
+            </constraints>
+            <size key="customSize" width="207" height="259"/>
+            <connections>
+                <outlet property="imgUser" destination="jvy-2X-oGy" id="Zke-4E-LCk"/>
+                <outlet property="lblName" destination="2Am-CA-8dJ" id="xbQ-9q-mMv"/>
+                <outlet property="viewCell" destination="UZ7-Uj-zZf" id="OWt-PS-ObC"/>
+            </connections>
+            <point key="canvasLocation" x="-74.637681159420296" y="185.82589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
