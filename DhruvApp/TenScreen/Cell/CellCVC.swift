@@ -21,7 +21,7 @@ class CellCVC: UICollectionViewCell {
     }
 
     //Configuration of Cell
-    func configCell(data:UserModel){
+    func configCell(data:EmployeeModel){
         imgUser.image = UIImage(named: data.img)
         lblName.text = data.name
     }

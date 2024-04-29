@@ -17,8 +17,10 @@ class TenScreenVC: UIViewController{
     //Variables
     var verticalDatasourceDelegate : VerticalDataSourceDelegate!
     var horizontalDatasourceDelegate : HorizontalDataSourceDelegate!
-    var webService = UserWebServices()
-    var arrData : [UserModel] = []
+    var webService = EmployeeWebService()
+    var arrData : [EmployeeModel] = []
+//    var webService = UserWebService()
+//    var arrData : [UserModel] = []
     
     //Main Action
     override func viewDidLoad() {
@@ -28,7 +30,7 @@ class TenScreenVC: UIViewController{
     
     //Function For Getting Data from JSON to Dictionary
     func getData(){
-        webService.getUserList { arr in
+        webService.getEmployeeList{ arr in
             arrData = arr
         }
         setUpCollectionView()
@@ -64,6 +66,7 @@ class TenScreenVC: UIViewController{
 //MARK:- Extension for ColViewDelegate
 extension TenScreenVC: ColViewDelegate {
     func didSelect(colView: UICollectionView, indexPath: IndexPath) {
-        
+        let selectedItem = arrData[indexPath.row]
+        Navigation.navigateWithData("FourteenScreen", "FourteenScreenVC", data: selectedItem, from: self)
     }
 }

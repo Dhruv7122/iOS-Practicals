@@ -16,7 +16,8 @@ protocol ColViewDelegate {
 class VerticalDataSourceDelegate: NSObject {
     
     //Datatype Alias
-    typealias T = UserModel
+//    typealias T = UserModel
+    typealias T = EmployeeModel
     typealias col = UICollectionView
     typealias del = ColViewDelegate
     typealias vc = UIViewController

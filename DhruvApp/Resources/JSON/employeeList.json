@@ -15,7 +15,8 @@
             "third_sem_grade" : "6.26",
             "forth_sem_grade" : "7.50",
             "fifth_sem_grade" : "8.00",
-            "sixth_sem_grade" : "7.26"
+            "sixth_sem_grade" : "7.26",
+            "img":"img_1"
         },
         {
             "name": "Kashyap Patel",
@@ -30,7 +31,8 @@
             "third_sem_grade" : "7.26",
             "forth_sem_grade" : "7.26",
             "fifth_sem_grade" : "7.26",
-            "sixth_sem_grade" : "7.26"
+            "sixth_sem_grade" : "7.26",
+            "img":"img_2"
         },
         {
             "name": "Panshul Mistry",
@@ -45,7 +47,8 @@
             "third_sem_grade" : "7.26",
             "forth_sem_grade" : "7.26",
             "fifth_sem_grade" : "7.26",
-            "sixth_sem_grade" : "7.26"
+            "sixth_sem_grade" : "7.26",
+            "img":"img_1"
         },
         {
             "name": "Priyal Savaliya",
@@ -60,7 +63,8 @@
             "third_sem_grade" : "7.26",
             "forth_sem_grade" : "7.26",
             "fifth_sem_grade" : "7.26",
-            "sixth_sem_grade" : "7.26"
+            "sixth_sem_grade" : "7.26",
+            "img":"img_2"
         }
     ]
 }

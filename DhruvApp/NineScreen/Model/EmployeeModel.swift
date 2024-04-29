@@ -23,6 +23,7 @@ class EmployeeModel: NSObject {
     var forth_sem_grade : String!
     var fifth_sem_grade : String!
     var sixth_sem_grade : String!
+    var img : String!
     
     
     init(fromDictionary dictionary: [String: Any]) {
@@ -39,6 +40,7 @@ class EmployeeModel: NSObject {
         forth_sem_grade = dictionary["forth_sem_grade"] as? String
         fifth_sem_grade = dictionary["fifth_sem_grade"] as? String
         sixth_sem_grade = dictionary["sixth_sem_grade"] as? String
+        img = dictionary["img"] as? String
     }
 }
 
