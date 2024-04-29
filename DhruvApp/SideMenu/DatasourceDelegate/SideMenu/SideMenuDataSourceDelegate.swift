@@ -1,7 +1,7 @@
 //
 //  SideMenuDataSourceDelegate.swift
 //  DhruvApp
-//
+//  purpose : Set up Table View
 //  Created by STTL on 23/04/24.
 //
 

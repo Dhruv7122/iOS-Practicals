@@ -10,6 +10,7 @@ import UIKit
 class Validation: UIViewController {
 
     // email validation function
+    //Params : (email, password)
     func isValidEmailAndPassword(_ email: String,_ password: String) -> Bool {
         // Regular expression for email validation
         let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"

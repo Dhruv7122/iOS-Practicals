@@ -22,5 +22,13 @@ class Navigation{
         let vc = sb.instantiateViewController(identifier: viewController)
         currentNavigationController.pushViewController(vc, animated: true)
     }
+    
+    //Navigation Function : Use to navigate to Other StoryBoard
+    static func navigateWithData(_ storyBoard : String,_ viewController: String,data: EmployeeModel, from currentViewController: UIViewController) {
+        let sb = UIStoryboard(name:storyBoard,bundle: nil)
+        let vc = sb.instantiateViewController(identifier: "FourteenScreenVC") as! FourteenScreenVC
+        vc.receivedData = data
+        currentViewController.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

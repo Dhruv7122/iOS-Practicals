@@ -20,15 +20,15 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="SideMenuTVC" customModule="DhruvApp" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CkC-oT-NFN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sxI-yw-jQX">
-                                <rect key="frame" x="16" y="12.5" width="30" height="26"/>
+                                <rect key="frame" x="16" y="12.5" width="56" height="52"/>
                                 <color key="tintColor" red="0.13231638070000001" green="0.1135848835" blue="0.43565797810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="sxI-yw-jQX" secondAttribute="height" multiplier="1:1" id="Zhi-fY-zsP"/>
@@ -36,13 +36,13 @@
                                 <imageReference key="image" image="paperplane" catalog="system" symbolScale="small"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yx0-eF-EnL">
-                                <rect key="frame" x="56" y="5" width="248" height="40"/>
+                                <rect key="frame" x="82" y="5" width="222" height="66"/>
                                 <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="16"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ke2-no-rJj">
-                                <rect key="frame" x="56" y="47" width="248" height="1"/>
+                                <rect key="frame" x="82" y="73" width="222" height="1"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Tl1-5Y-ZBc"/>
@@ -58,7 +58,6 @@
                             <constraint firstItem="Ke2-no-rJj" firstAttribute="leading" secondItem="yx0-eF-EnL" secondAttribute="leading" id="aaQ-Jo-zc3"/>
                             <constraint firstAttribute="bottom" secondItem="sxI-yw-jQX" secondAttribute="bottom" constant="10" id="eX4-gv-fRw"/>
                             <constraint firstItem="yx0-eF-EnL" firstAttribute="leading" secondItem="sxI-yw-jQX" secondAttribute="trailing" constant="10" id="ise-7a-4XN"/>
-                            <constraint firstAttribute="height" constant="50" id="lTt-XK-UCY"/>
                             <constraint firstAttribute="bottom" secondItem="Ke2-no-rJj" secondAttribute="bottom" constant="2" id="ttr-i5-Ah2"/>
                             <constraint firstAttribute="trailing" secondItem="yx0-eF-EnL" secondAttribute="trailing" constant="16" id="ttw-2f-WHg"/>
                             <constraint firstAttribute="bottom" secondItem="yx0-eF-EnL" secondAttribute="bottom" constant="5" id="txO-bY-a0B"/>

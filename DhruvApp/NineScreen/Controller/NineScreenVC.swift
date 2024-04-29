@@ -47,7 +47,9 @@ class NineScreenVC: UIViewController {
 //MARK:- NineScreenVc Extension
 extension NineScreenVC : TblViewDelegate {
     func didselect(tbl: UITableView, indexPath: IndexPath) {
-        
+        let selectedItem = arrData[indexPath.row]
+        Navigation.navigateWithData("FourteenScreen", "FourteenScreenVC", data: selectedItem, from: self)
+//        Navigation.navigateToOtherController("FourteenScreen", "FourteenScreenVC", from: self)
     }
 }
 

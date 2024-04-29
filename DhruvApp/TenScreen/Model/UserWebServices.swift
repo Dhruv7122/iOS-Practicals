@@ -24,7 +24,6 @@ class UserWebServices: NSObject {
             return [:]
         }
         do {
-          
             let data = try Data(contentsOf: URL(fileURLWithPath: strPath), options: .alwaysMapped)
             
             let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)

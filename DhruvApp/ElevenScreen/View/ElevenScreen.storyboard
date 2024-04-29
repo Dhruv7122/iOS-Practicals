@@ -67,12 +67,30 @@
                             <constraint firstItem="l0A-FX-JbW" firstAttribute="leading" secondItem="g3q-ln-cWp" secondAttribute="leading" id="bDg-Oj-OEw"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Cm9-u4-d0N"/>
                     <connections>
                         <outlet property="searchBar" destination="tPP-dy-bBl" id="HiI-5Q-zkY"/>
                         <outlet property="tblView" destination="XYi-Hi-XrW" id="buc-jI-07L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HYu-Gr-b6O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="718.84057971014499" y="140.625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="r89-K2-tWw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="A2z-gS-poA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zbG-4g-F6d">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yNa-3A-use" kind="relationship" relationship="rootViewController" id="KnF-kh-KA6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OuV-QL-RsY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-191.30434782608697" y="140.625"/>
         </scene>

@@ -106,5 +106,13 @@
 		<key>vc</key>
 		<string>ThirteenScreenVC</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>Practical 14</string>
+		<key>storyboard</key>
+		<string>FourteenScreen</string>
+		<key>vc</key>
+		<string>FourteenScreenVC</string>
+	</dict>
 </array>
 </plist>

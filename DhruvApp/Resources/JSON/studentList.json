@@ -6,25 +6,37 @@
             "name": "Atharv Pandit",
             "dob": "01-01-2000",
             "department": "ios",
-            "img":"img_1"
+            "img":"img_1",
+            "student_id" : "31231",
+            "sports_name" : "Badminton",
+            "gender" : "Male"
         },
         {
             "name": "Kashyap Patel",
             "dob": "01-02-2000",
             "department": "ios",
-            "img":"img_2"
+            "img":"img_2",
+            "student_id" : "31232",
+            "sports_name" : "Cricket",
+            "gender" : "Male"
         },
         {
             "name": "Panshul Mistry",
             "dob": "01-03-2000",
             "department": "ios",
-            "img":"img_1"
+            "img":"img_1",
+            "student_id" : "31233",
+            "sports_name" : "Table Tennis",
+            "gender" : "Male"
         },
         {
             "name": "Priyal Savaliya",
             "dob": "01-04-2000",
             "department": "ios",
-            "img":"img_2"
+            "img":"img_2",
+            "student_id" : "31234",
+            "sports_name" : "Badminton",
+            "gender" : "Female"
         }
     ]
 }

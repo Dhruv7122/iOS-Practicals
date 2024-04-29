@@ -5,22 +5,62 @@
         {
             "name": "Atharv Pandit",
             "dob": "01-01-2000",
-            "department": "ios"
+            "department": "ios",
+            "student_id" : "31231",
+            "sports_name" : "Badminton",
+            "gender" : "Male",
+            "address" : "2nd Floor, Saffron Tower,Panchvati",
+            "first_sem_grade" : "7.26",
+            "second_sem_grade" : "8.26",
+            "third_sem_grade" : "6.26",
+            "forth_sem_grade" : "7.50",
+            "fifth_sem_grade" : "8.00",
+            "sixth_sem_grade" : "7.26"
         },
         {
             "name": "Kashyap Patel",
             "dob": "01-02-2000",
-            "department": "ios"
+            "department": "ios",
+            "student_id" : "31232",
+            "sports_name" : "Cricket",
+            "gender" : "Male",
+            "address" : "2nd Floor, Saffron Tower,Panchvati",
+            "first_sem_grade" : "7.26",
+            "second_sem_grade" : "7.26",
+            "third_sem_grade" : "7.26",
+            "forth_sem_grade" : "7.26",
+            "fifth_sem_grade" : "7.26",
+            "sixth_sem_grade" : "7.26"
         },
         {
             "name": "Panshul Mistry",
             "dob": "01-03-2000",
-            "department": "ios"
+            "department": "ios",
+            "student_id" : "31233",
+            "sports_name" : "Table Tennis",
+            "gender" : "Male",
+            "address" : "2nd Floor, Saffron Tower,Panchvati",
+            "first_sem_grade" : "7.26",
+            "second_sem_grade" : "7.26",
+            "third_sem_grade" : "7.26",
+            "forth_sem_grade" : "7.26",
+            "fifth_sem_grade" : "7.26",
+            "sixth_sem_grade" : "7.26"
         },
         {
             "name": "Priyal Savaliya",
             "dob": "01-04-2000",
-            "department": "ios"
+            "department": "ios",
+            "student_id" : "31234",
+            "sports_name" : "Badminton",
+            "gender" : "Female",
+            "address" : "2nd Floor, Saffron Tower,Panchvati",
+            "first_sem_grade" : "7.26",
+            "second_sem_grade" : "7.26",
+            "third_sem_grade" : "7.26",
+            "forth_sem_grade" : "7.26",
+            "fifth_sem_grade" : "7.26",
+            "sixth_sem_grade" : "7.26"
         }
     ]
 }

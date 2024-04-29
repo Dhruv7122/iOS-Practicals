@@ -35,9 +35,12 @@ class SideMenuVC: UIViewController {
             }
         }
         
+        // Add observer for content size changes of the table view
+        tblView.addObserver(self, forKeyPath: "contentSize", options: .new, context: nil)
+        
         setUpTableView()
         BorderFactory.addBorder(to: imgLoginUser, cornerRadius: 50, borderColor: UIColor.white, borderWidth: 5.0)
-        tblViewHeight.constant = CGFloat(arrSideMenu.count * 50)
+//        tblViewHeight.constant = CGFloat(arrSideMenu.count * 50)
     }
     
     //Read PropertyList Function
@@ -62,6 +65,16 @@ class SideMenuVC: UIViewController {
         }
         if sideMenuDataSourceDelegate == nil {
             sideMenuDataSourceDelegate = .init(arr: arrSideMenu, tblv: tblView, del: self)
+        }
+    }
+    
+    // Observe changes to the contentSize property
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath == "contentSize" {
+            if let newSize = change?[.newKey] as? CGSize {
+                // Update the height constraint of the table view
+                tblViewHeight.constant = newSize.height
+            }
         }
     }
     

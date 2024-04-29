@@ -1,7 +1,7 @@
 //
 //  ThirteenDatasourceDelegate.swift
 //  DhruvApp
-//
+//  purpose : Set up Table View
 //  Created by STTL on 22/04/24.
 //
 
@@ -81,10 +81,10 @@ extension ThirteenDataSourceDelegate:UITableViewDataSource
         cell.btnDelete.tag = indexPath.row
         cell.btnAdd.addTarget(self, action: #selector(addAction(_:)), for: .touchUpInside)
         cell.btnDelete.addTarget(self, action: #selector(deleteAction), for: .touchUpInside)
-        
         cell.configCell(data: arrSource[indexPath.row])
         return cell
     }
+    
 }
 
 //MARK:- ThirteenDataSourceDelegate Extension
