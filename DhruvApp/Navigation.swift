@@ -10,6 +10,7 @@ import UIKit
 class Navigation{
     
     //Navigation Function : Use to navigate to Other StoryBoard
+    //params : (storyboard , viewController , currentViewControlller)
     static func navigateToOtherController(_ storyBoard : String,_ viewController: String, from currentViewController: UIViewController) {
         let sb = UIStoryboard(name:storyBoard,bundle: nil)
         let vc = sb.instantiateViewController(identifier: viewController)
@@ -17,6 +18,7 @@ class Navigation{
     }
     
     //Navigation Function : Use to navigate to Other StoryBoard
+    //params : (storyboard , viewController , currentNavigationController)
     static func navigateToOtherControllerTableView(_ storyBoard : String,_ viewController: String, from currentNavigationController: UINavigationController) {
         let sb = UIStoryboard(name:storyBoard,bundle: nil)
         let vc = sb.instantiateViewController(identifier: viewController)
@@ -24,6 +26,7 @@ class Navigation{
     }
     
     //Navigation Function : Use to navigate to Other StoryBoard
+    //params : (storyboard , viewController , data , currentViewControlller)
     static func navigateWithData(_ storyBoard : String,_ viewController: String,data: EmployeeModel, from currentViewController: UIViewController) {
         let sb = UIStoryboard(name:storyBoard,bundle: nil)
         let vc = sb.instantiateViewController(identifier: "FourteenScreenVC") as! FourteenScreenVC
